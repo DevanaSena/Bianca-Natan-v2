@@ -1,6 +1,6 @@
 // Get
 document.getElementById("load-data").addEventListener("click", function () {
-    fetch("https://script.google.com/macros/s/AKfycbxSgOGkWd4KnGSuqyko4VvREvqGlJZWNdH9AhohmvSoIAbdoN5szTGdBum7L4sMjvwf/exec")
+    fetch("https://script.google.com/macros/s/AKfycbxSgOGkWd4KnGSuqyko4VvREvqGlJZWNdH9AhohmvSoIAbdoN5szTGdBum7L4sMjvwff/exec")
         .then(response => response.json())
         .then(data => {
             const tableHead = document.querySelector("#data-table thead");
